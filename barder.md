@@ -1,3 +1,5 @@
+
+
 ### What was the toaster project? What did Thomas Thwaites attempt to do? Was he successful and what is the significance of this example in the context of complexity and development?
 The toaster project was an endeavour by Thomas Thwaites, a British design student.  Thomas Thwaites attempted to create a toaster from scratch by getting the raw materials and making them into parts, which he would then combine to make the toaster. He was partially successful as the toaster worked for five seconds and then blew up. The significance is that just as the creation of a very simple toaster needed several parts, development is also not just determined by increase in output of a firm, but the combination of political, social, economic, legal institutions.
 
