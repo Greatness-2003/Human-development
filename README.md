@@ -15,3 +15,4 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 3. Owen Barder [Development and Complexity](barder.html)
 4. [Development Informal essay](development.html)
 5. [Personal Background](personal.html)
+6. [Gapminder essay](gapminder.md)
