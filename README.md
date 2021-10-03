@@ -20,4 +20,4 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 
 
 ## Formal responses
-1. [Annotated Bibliography](bibliography.md)
+1. [Annotated Bibliography](bibliography.html)
