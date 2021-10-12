@@ -17,7 +17,7 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 5. [Personal Background](personal.html)
 6. [Gapminder essay](gapminder.html)
 7. [Our World in Data response](worlddata.html)
-8. [China's BRI essay](belt.md)
+8. [China's BRI essay](belt.html)
 
 
 
