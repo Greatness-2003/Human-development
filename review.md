@@ -46,3 +46,10 @@ The results of the study indicated that across the 1787 settlements in the datas
 
 ### Conclusion
 The fight against malaria continues and we know that it is a disease that can be brought down. This is proven by the fact that a lot of countries around the world that suffered from it have succeeded in winning the war against it. 
+
+
+#### Sources
+1. Ugwu, Chigozie Louisa J, and Temesgen Zewotir. “Spatial Distribution and Sociodemographic Risk Factors of Malaria in Nigerian Children Less Than 5 Years Old.” Geospatial health 15.2 (2020): 302–311. Web.
+2. Scott, N., Hussain, S.A., Martin-Hughes, R. et al. Maximizing the impact of malaria funding through allocative efficiency: using the right interventions in the right locations. Malar J 16, 368 (2017).
+3. Onyiri, Nnadozie. “Estimating Malaria Burden in Nigeria: A Geostatistical Modelling Approach.” Geospatial health 10.2 (2015): 163–170. Web.
+4. Lawal, O., & Anyiam, F. E. (2019). Modelling geographic accessibility to primary health care facilities: Combining open data and geospatial analysis. Geo-Spatial Information Science, 22(3), 174-184.
