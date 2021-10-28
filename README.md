@@ -21,7 +21,7 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 9. [Evidence of Abundance](abundance.html)
 10. [What is Data science](datascience.html)
 
-10.
+
 
 
 
