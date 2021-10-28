@@ -18,8 +18,7 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 6. [Gapminder essay](gapminder.html)
 7. [Our World in Data response](worlddata.html)
 8. [China's BRI essay](belt.html)
-9. [Evidence of Abundance](abundance.html)
-10.[What is Data science](datascience.html)
+9. [Evidence of Abundance](abundance.html)10.[What is Data science](datascience.html)
 
 
 
