@@ -6,7 +6,7 @@ Aside from security, facial recognition offers convenience. It reduces activitie
 
 Some disadvantages include the threat to individual privacy. Having your face stored in a database and kept for an unknown future use is something people are averse to. And if those databases happen to be breached by hackers, then it can be used for criminal purposes, such as identity theft, fraud, money laundry. Facial recognition can also identify an innocent individual as a criminal since technology isn’t perfect. This leads to false arrests and harassments. 
 
-The only role I can think of in regards to the government regulating facial recognition is to simply ask for consent of the consumers.
+The only role I can think of in regards to the government regulating facial recognition is to simply ensure industries using the facial recognition technolgy ask for consent of the consumers.
 
 
 
