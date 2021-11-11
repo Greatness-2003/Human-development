@@ -22,6 +22,7 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 10. [What is Data science](datascience.html)
 11. [HDI](hdi.html)
 12. [Facial Recognition Technology](facial.html)
+13. [COVID's Effect on Careers](affectcareer.md)
 
 
 
