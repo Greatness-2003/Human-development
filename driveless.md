@@ -1,0 +1,6 @@
+### In 1-2 paragraphs, write what you think (or know) are the broad implications for society from the development and adoption of self-driving vehicle technology. What are the positive aspects, the not so positive, and the important considerations (e.g, ethical)?
+
+The effects of self-driving cars are numerous. They include a decline in the oil industry, which would result in a decline in air pollution. There will be an increase in unemployment as most drivers will lose their jobs. Demand for taxis and cabs will go down drastically. Transportation costs will also drop due to the competition. There will be better traffic flow and little need for traffic police. People will rely more on calling a driverless, rather than owning one, since it may be expensive. This will lead to less production of cars. This may lead to financial troubles for traditional carmakers. 
+
+Driverless cars reduce the risks of accidents, both involving other cars and pedestrians. This will economic problems for car insurance companies as the cost of insurance will reduce significantly. People may drink more as there will be less drinking while driving offences. This may cause loss of business for lawyers. Ambulances will transport patients to the hospital faster. 
+
