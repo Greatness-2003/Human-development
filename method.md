@@ -11,12 +11,12 @@ In the article, “Spatial Distribution and Sociodemographic Risk Factors of Mal
 #### The response variables
 In this study, the outcome of interest was based on malaria RDT survey results as a binary indicator of the presence of malaria parasites in the child’s blood sample, where 1 signifies the presence of malaria and 0 the opposite. A total of 6,070 eligible children between ages 6 and 59 months that participated in the 2015 NMI survey were included in the analysis.
 
-   ![img52](https://user-images.githubusercontent.com/68754608/142745673-3bdbaee9-a6d5-40d9-be15-8e8fcc432f6a.jpg)
+   + + + ![img52](https://user-images.githubusercontent.com/68754608/142745673-3bdbaee9-a6d5-40d9-be15-8e8fcc432f6a.jpg)
 
 
 
 
-   ![img6](https://user-images.githubusercontent.com/68754608/142745711-d5afbde3-2a47-4b45-960b-a0d531e8b4f6.jpg)
+   + + + ![img6](https://user-images.githubusercontent.com/68754608/142745711-d5afbde3-2a47-4b45-960b-a0d531e8b4f6.jpg)
 
 #### The explanatory variables
 The explanatory variables were the selected baseline socioeconomic, demographic, and geographic variables obtained at the household and individual levels from the 2015 NMIS. They included sex, age in months, anemic status, mother’s educational level, age, and sex of the head of the household, type of place of residence, household wealth index, use of mosquito indoor residual spray in the past twelve months, use of Long-Lasting Insecticidal Nets (LLINs) during sleep and number of household members. However, the household wealth index was generated using Principal Component Analysis (PCA) from NMIS. The PCA value is estimated based on household’s ownership of consumer goods, household dwelling characteristics, source of drinking water, sanitation facilities such as type of toilet facilities in the household, material for household construction and other factors related to individual household’s socioeconomic status.
@@ -25,15 +25,15 @@ The explanatory variables were the selected baseline socioeconomic, demographic,
 #### Statistical modelling
 For the geo-referenced data obtained for this study, a logistic regression model as a special case of the Generalized Linear Mixed Models (GLMMs) that include all variables of interest generated spatially auto-correlated residuals (Moran’s I=0.233, P<0.0001). Here, we employed the GLMM framework to fit the under-5 malaria prevalence data using the logit link function as follows: 
 
-   ![img10](https://user-images.githubusercontent.com/68754608/142742371-ff89a67a-d3fa-4273-81c9-987340824aac.jpg)
+   + + + + + + + + +  ![img10](https://user-images.githubusercontent.com/68754608/142742371-ff89a67a-d3fa-4273-81c9-987340824aac.jpg)
    
 The predicted values from the model were mapped to obtain risk maps for the under-5 malaria infections at the national level. This was achieved by generating the fitted values of the response variable predicted by the S-GLMM fitted to the data, on which we applied ordinary Kriging to infer values at unobserved locations in the proximity of the data points; hence, a spherical semi-variogram model obtained via the Proc Variogram procedure was found suitable for the Kriging (Cressie, 1992). This approach enabled us to model and map the risk of under-5 malaria to identify critical hotspots of malaria clusters. The spatial analysis was carried out using ArcGIS, version 10.6.1 (ESRI, Redlands, CA, USA) and the statistical analysis was implemented using SAS statistical software, version 9.4 (SAS Institute Inc., Cary, NC, USA). The significance level in our analysis was P=0.05.
 
-![img22](https://user-images.githubusercontent.com/68754608/142742400-fee5b434-556a-4c55-a246-b05d11207cdb.jpg)
+   + + + + + + + ![img22](https://user-images.githubusercontent.com/68754608/142742400-fee5b434-556a-4c55-a246-b05d11207cdb.jpg)
 
 A map was built showing the several hotspots where malaria is prevalent. The results indicated that Zamfara, Kebbi, Sokoto, Gombe, Adamawa, and Jigawa have the highest risk of under-5 malaria prevalence. There were followed by another 5 states, which including the 6 are all located in the Northern region of Nigeria. The study showed that South-west states had the lowest risk. 
 
-![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
++ + + + + + + + ![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
 
 
 
