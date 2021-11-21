@@ -1,3 +1,5 @@
+Word count: 1569
+
 ## Methodological Investigation: Malaria Analysis in Nigeria
 
 ### Introduction
