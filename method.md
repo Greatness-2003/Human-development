@@ -13,7 +13,7 @@ In this study, the outcome of interest was based on malaria RDT survey results a
 
    + + + ![img52](https://user-images.githubusercontent.com/68754608/142745673-3bdbaee9-a6d5-40d9-be15-8e8fcc432f6a.jpg) 
  
- *Map of Nigeria (the study area) based on the 2006 population census, indicating 333 clusters (37 states, including the Federal
+ ***Figure 1:*** *Map of Nigeria (the study area) based on the 2006 population census, indicating 333 clusters (37 states, including the Federal
 Capital Territory (FCT) under the 6 geopolitical regions).*
 
 
@@ -21,7 +21,7 @@ Capital Territory (FCT) under the 6 geopolitical regions).*
 
    + + + ![img6](https://user-images.githubusercontent.com/68754608/142745711-d5afbde3-2a47-4b45-960b-a0d531e8b4f6.jpg)
 
-*Map of Nigeria showing surveyed locations of under-5 malaria prevalence including the 7,745 households selected from 333
+***Figure 2:*** *Map of Nigeria showing surveyed locations of under-5 malaria prevalence including the 7,745 households selected from 333
 clusters randomly displaced 2 km for urban clusters and 10 km for rural clusters for confidentiality reasons.*
 
 #### The explanatory variables
@@ -37,14 +37,14 @@ The predicted values from the model were mapped to obtain risk maps for the unde
 
  + + + + +  ![img22](https://user-images.githubusercontent.com/68754608/142748650-b8407d3d-64cb-48c1-ab3d-863306d34b71.jpg)
 
-*Scatter plot of under-5 malaria prevalence. Blue dots represent negative malaria test outcomes and red dots represent positive
+***Figure 3:*** *Scatter plot of under-5 malaria prevalence. Blue dots represent negative malaria test outcomes and red dots represent positive
 outcomes.*
 
 A map was built showing the several hotspots where malaria is prevalent. The results indicated that Zamfara, Kebbi, Sokoto, Gombe, Adamawa, and Jigawa have the highest risk of under-5 malaria prevalence. There were followed by another 5 states, which including the 6 are all located in the Northern region of Nigeria. The study showed that South-west states had the lowest risk. 
 
 + + + + + ![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
 
-*Risk map of under-5 malaria infection as predicted by the spatial generalized linear mixed model for the 6 geopolitical regions of Nigeria. The colorimetric scale represents the number of infected under-5 children per km2.*
+***Figure 4:*** *Risk map of under-5 malaria infection as predicted by the spatial generalized linear mixed model for the 6 geopolitical regions of Nigeria. The colorimetric scale represents the number of infected under-5 children per km2.*
 
 ### Method 2
 
@@ -54,18 +54,18 @@ The fieldwork was carried out from March 1 to June 30, 2007 and was aimed at obt
 
 #### Statistical modelling
 Logistic regression was fitted to malaria prevalence to identify significant demographic (age) and environmental covariates using STATA v. 9.0. Covariates with a significance level below 0.15 were fitted into Bayesian geostatistical logistic models using WinBUGS v. 1.4. To consider spatial heterogeneity, location-specific random effects were integrated in the logistic models, assuming that they were distributed according to a multivariate normal distribution with variance-covariance matrix parameterizing the correlation structure in the data as an exponential function of distance. Let Ni be the number of children tested at location si, i =1…, n, Yi the number of those found with malaria parasites in a blood sample and Xi = (Xi1, Xi2...,Xip)T the vector of p associated environmental predictors observed at location si. 
-For the regression coefficients, a noninformative uniform prior distribution with bounds-∞ and ∞, was adopted. For the spatial parameters σ2, σ2 k, ρ, and ρk we adopted inverse gamma and gamma prior distributions, respectively, with parameters chosen to have means equal to 1 and variances equal to 100. The model was used to predict malaria risk throughout Nigeria. This approach treats the malaria risk at a new location as random and calculates its predictive posterior distribution, which not only provides a single risk estimate, but also gives a whole range of likely values together with their probabilities to be the true values at a specific location. This makes it possible to estimate the prediction error, a substantial advantage over the classical Kriging methods. We estimated the predictive posterior distributions at prediction locations by simulation.
+For the regression coefficients, a noninformative uniform prior distribution with bounds-∞ and ∞, was adopted. For the spatial parameters σ2, σ2 k, ρ, and ρk, they used inverse gamma and gamma prior distributions, respectively, with parameters chosen to have means equal to 1 and variances equal to 100. The model was used to predict malaria risk throughout Nigeria. This approach treats the malaria risk at a new location as random and calculates its predictive posterior distribution, which not only provides a single risk estimate, but also gives a whole range of likely values together with their probabilities to be the true values at a specific location. This makes it possible to estimate the prediction error, a substantial advantage over the classical Kriging methods. We estimated the predictive posterior distributions at prediction locations by simulation.
 
 #### Result
 The malaria risk maps constructed from the spatial model indicates that malaria varies with a 20% prevalence in some states and 70% in others. The highest prevalence was found in Niger Delta states, Rivers and Bayelsa, and the northeastern and northwestern regions of the country. The north however, had more places with low prevalence.
 
 + + + + + ![img20](https://user-images.githubusercontent.com/68754608/142748357-0f11d2a3-d838-4ca1-8211-ed099fc29e1a.jpg)
 
-*Malaria prevalence at the various survey locations in Nigeria.*                     
+***Figure 5:*** *Malaria prevalence at the various survey locations in Nigeria.*                     
                      
 + + + + + ![img21](https://user-images.githubusercontent.com/68754608/142748374-efe9e3b4-15e5-482b-86d2-b27eaa21778a.jpg)
 
-*Median of the malaria prevalence across Nigeria*
+***Figure 6:*** *Median of the malaria prevalence across Nigeria*
 
 
 ### Conclusion
