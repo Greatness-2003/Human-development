@@ -35,14 +35,14 @@ For the geo-referenced data obtained for this study, a logistic regression model
    
 The predicted values from the model were mapped to obtain risk maps for the under-5 malaria infections at the national level. This was achieved by generating the fitted values of the response variable predicted by the S-GLMM fitted to the data, on which we applied ordinary Kriging to infer values at unobserved locations in the proximity of the data points; hence, a spherical semi-variogram model obtained via the Proc Variogram procedure was found suitable for the Kriging (Cressie, 1992). This approach enabled us to model and map the risk of under-5 malaria to identify critical hotspots of malaria clusters. The spatial analysis was carried out using ArcGIS, version 10.6.1 (ESRI, Redlands, CA, USA) and the statistical analysis was implemented using SAS statistical software, version 9.4 (SAS Institute Inc., Cary, NC, USA). The significance level in our analysis was P=0.05.
 
-   + + + + +  ![img22](https://user-images.githubusercontent.com/68754608/142748650-b8407d3d-64cb-48c1-ab3d-863306d34b71.jpg)
+ + + + + +  ![img22](https://user-images.githubusercontent.com/68754608/142748650-b8407d3d-64cb-48c1-ab3d-863306d34b71.jpg)
 
 *Scatter plot of under-5 malaria prevalence. Blue dots represent negative malaria test outcomes and red dots represent positive
 outcomes.*
 
 A map was built showing the several hotspots where malaria is prevalent. The results indicated that Zamfara, Kebbi, Sokoto, Gombe, Adamawa, and Jigawa have the highest risk of under-5 malaria prevalence. There were followed by another 5 states, which including the 6 are all located in the Northern region of Nigeria. The study showed that South-west states had the lowest risk. 
 
-+ + + + + + ![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
++ + + + + ![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
 
 *Risk map of under-5 malaria infection as predicted by the spatial generalized linear mixed model for the 6 geopolitical regions of Nigeria. The colorimetric scale represents the number of infected under-5 children per km2.*
 
@@ -59,11 +59,11 @@ For the regression coefficients, a noninformative uniform prior distribution wit
 #### Result
 The malaria risk maps constructed from the spatial model indicates that malaria varies with a 20% prevalence in some states and 70% in others. The highest prevalence was found in Niger Delta states, Rivers and Bayelsa, and the northeastern and northwestern regions of the country. The north however, had more places with low prevalence.
 
-+ + + + + + ![img20](https://user-images.githubusercontent.com/68754608/142748357-0f11d2a3-d838-4ca1-8211-ed099fc29e1a.jpg)
++ + + + + ![img20](https://user-images.githubusercontent.com/68754608/142748357-0f11d2a3-d838-4ca1-8211-ed099fc29e1a.jpg)
 
 *Malaria prevalence at the various survey locations in Nigeria.*                     
                      
-+ + + + + + ![img21](https://user-images.githubusercontent.com/68754608/142748374-efe9e3b4-15e5-482b-86d2-b27eaa21778a.jpg)
++ + + + + ![img21](https://user-images.githubusercontent.com/68754608/142748374-efe9e3b4-15e5-482b-86d2-b27eaa21778a.jpg)
 
 *Median of the malaria prevalence across Nigeria*
 
