@@ -36,4 +36,17 @@ A map was built showing the several hotspots where malaria is prevalent. The res
 + + + + + + + + ![img25](https://user-images.githubusercontent.com/68754608/142742420-5124a0f5-3a3c-443f-9d85-f197a08a3cad.jpg)
 
 
+### Method 2
+
+#### Malaria prevalence and environmental data
+The study in this article “Estimating Malaria Burden in Nigeria: A Geostatistical Modelling Approach.” Geospatial health” was done to determine the prevalence of malaria in Nigerian states based solely on environmental factors such as normalized difference vegetation index (NDVI), the enhanced vegetation index (EVI), the leaf area index (LAI), the amount of rainfall, the land surface temperature for day and night (LSTday and LSTnight), respectively, land use/land-cover (LULC), elevation and distance to the nearest water body.
+The fieldwork was carried out from March 1 to June 30, 2007 and was aimed at obtaining unpublished malaria prevalence data from various Nigerian sources. The data collection was done in phases according to Nigeria’s six geopolitical zones. Longitude and latitude co-ordinates were determined for each parasitological survey using the Geonames geographical database. Environmental predictors were extracted from RS sources at spatial and temporal resolutions.
+
+#### Statistical modelling
+Logistic regression was fitted to malaria prevalence to identify significant demographic (age) and environmental covariates using STATA v. 9.0. Covariates with a significance level below 0.15 were fitted into Bayesian geostatistical logistic models using WinBUGS v. 1.4. To consider spatial heterogeneity, location-specific random effects were integrated in the logistic models, assuming that they were distributed according to a multivariate normal distribution with variance-covariance matrix parameterizing the correlation structure in the data as an exponential function of distance. Let Ni be the number of children tested at location si, i =1…, n, Yi the number of those found with malaria parasites in a blood sample and Xi = (Xi1, Xi2...,Xip)T the vector of p associated environmental predictors observed at location si. 
+For the regression coefficients, a noninformative uniform prior distribution with bounds-∞ and ∞, was adopted. For the spatial parameters σ2, σ2 k, ρ, and ρk we adopted inverse gamma and gamma prior distributions, respectively, with parameters chosen to have means equal to 1 and variances equal to 100. The model was used to predict malaria risk throughout Nigeria. This approach treats the malaria risk at a new location as random and calculates its predictive posterior distribution, which not only provides a single risk estimate, but also gives a whole range of likely values together with their probabilities to be the true values at a specific location. This makes it possible to estimate the prediction error, a substantial advantage over the classical Kriging methods. We estimated the predictive posterior distributions at prediction locations by simulation.
+
+#### Result
+The malaria risk maps constructed from the spatial model indicates that malaria varies with a 20% prevalence in some states and 70% in others. The highest prevalence was found in Niger Delta states, Rivers and Bayelsa, and the northeastern and northwestern regions of the country. The north however, had more places with low prevalence.
+
 
