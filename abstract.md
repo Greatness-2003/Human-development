@@ -1,0 +1,3 @@
+#### Malaria Mitigation in Nigeria
+
+Malaria is a global disease that has plagued the nations of Africa for years. It is a major cause of high mortality rates, child deaths, and plays a key role in economic distress, poverty, and underdevelopment. The country of interest is Nigeria. The methods I investigated in my analysis are the GLMM and the Bayesian methods. Both were used to determine the prevalence of malaria in Nigeria, although the results of both were widely different. My presentation covers the introduction, the methods used and the results. Lastly, it briefly outlines my plans for future research. 
