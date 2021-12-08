@@ -37,4 +37,4 @@ Hi everyone, I'm Greatness and I'm an international student from Nigeria, West A
 2. [Literature Review](review.html)
 3. [Methodological Investigation](method.html)
 4. [Abstract](abstract.html)
-5. [Research Proposal)(...)
+5. [Research Proposal]
